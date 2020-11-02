@@ -24,11 +24,11 @@ git clone https://github.com/ashishshah1995/node-weather-website
 
 2. Now you need to install the dependencies
 
-  `npm install`
+      `npm install`
 
 3. Now you can run it locally
 
-  `node src/app.js`
+      `node src/app.js`
 
 4. Open ```http://localhost:3000``` to view it in the browser.
 
