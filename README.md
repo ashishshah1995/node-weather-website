@@ -5,24 +5,24 @@ Visit via https://ashish-weather-website.herokuapp.com/
 
 Check out the Live Demo
 
-#Getting Started
+## Getting Started
 
 • Developed a web application where users can type in a street address, city name or zip code and get real-time weather data instantly displayed on their screen. 
 
 • Integrated OpenWeatherMap API for fetching the location coordinates and weather data of the given location is determined using Map Box Api.
 
-Firstly it calls Map Box Api for geo information of entering location.
+1. Firstly it calls Map Box Api for geo information of entering location.
 
-Then it calls OpenWeatherMap Api with geo location information for weather information.
+2. Then it calls OpenWeatherMap Api with geo location information for weather information.
 
-Give Address -> Get Weather data address->Geocode(API)->OpenWeatherMapAPI->Output
+`Give Address -> Get Weather data address->Geocode(API)->OpenWeatherMapAPI->Output`
 
-#Features
+## Features
 - Forcast using the OpenWeatherMap API
 - Geocoding using the Mapbox API
 - Inputs from Command Line Interface (CLI)
 
-#How to use:
+## Run locally
 
 To Use: Clone the repository. CD to the repository folder and run the following command in your terminal:
 git clone https://github.com/ashishshah1995/node-weather-website
